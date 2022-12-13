@@ -1,16 +1,19 @@
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 
 canvas {
   width: 100vw;
   height: 100vh;
+  object-fit: cover;
 }
 
 .headline {
