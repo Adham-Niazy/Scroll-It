@@ -17,5 +17,23 @@ canvas {
 }
 
 .headline {
-  display: none;
+  position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 5rem;
+  right: 20%;
+  bottom: 40%;
+  transform: translate(-20%, -40%);
+}
+
+@media screen and (max-width: 1024px) {
+  .headline {
+    font-size: 2rem;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }
