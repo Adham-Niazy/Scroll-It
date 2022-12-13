@@ -37,3 +37,15 @@ canvas {
     font-size: 2rem;
   }
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0A244B;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ef4565;
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}

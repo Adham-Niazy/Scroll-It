@@ -46,10 +46,7 @@ gsap.fromTo(
 
       start: "60%",
       end: "80%",
-    },
-    onComplete: () => {
-      gsap.to(".headline", { opacity: 0 });
-    },
+    }
   }
 );
 
