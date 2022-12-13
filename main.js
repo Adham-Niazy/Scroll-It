@@ -44,8 +44,8 @@ gsap.fromTo(
     scrollTrigger: {
       scrub: 1,
 
-      start: "50%",
-      end: "60%",
+      start: "60%",
+      end: "80%",
     },
     onComplete: () => {
       gsap.to(".headline", { opacity: 0 });
